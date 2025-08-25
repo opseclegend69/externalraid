@@ -3,7 +3,7 @@ from discord import app_commands
 from discord.ext import commands
 import os
 
-TOKEN = os.environ["DISCORD_TOKEN"]  # Pull token from secrets
+TOKEN = os.environ["MTQwOTU3ODQ3NjkxODQwNzM4OA.GUDIpU.EbqSM0O1NJKIVZNSrT2kinoSQubKRoghqiqbGk"]  # https://discord.com/oauth2/authorize?client_id=1409578476918407388
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
